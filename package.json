@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "homepage": "ttp://adarshal.github.io/tshirtdemo",
   "dependencies": {
     "@react-three/drei": "^9.70.4",
     "@react-three/fiber": "^8.13.6",
