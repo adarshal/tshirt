@@ -8,4 +8,5 @@ export default defineConfig({
     allowedHeaders: ["Content-Type", "Authorization"],
     allowedOrigins: ["https://market-assets.fra1.cdn.digitaloceanspaces.com"],
   },
+  
 })
